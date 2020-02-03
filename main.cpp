@@ -4,7 +4,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int divide(int, int);
+float divide(int, int);
 int add(int, int);
 
 int main()
@@ -43,7 +43,7 @@ int add(int x, int y)
   return x+y;
 }
 
-int divide(int x, int y)
+float divide(int x, int y)
 {
-  return (y == 0) ? 0 : x/y;
+  return (y == 0) ? 0 : (float)x/(float)y;
 }
