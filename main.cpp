@@ -22,7 +22,7 @@ int main()
       if(second == 0)
       {
         cout << "You can not divide by 0\n";
-        exit(1);
+        return 1;
       }
       cout << divide(first, second) << endl;
     }
