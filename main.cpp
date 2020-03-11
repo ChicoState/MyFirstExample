@@ -18,16 +18,14 @@ int main() {
     cin >> first >> second;
 
     if (input == "divide") {
-      if (second == 0){
+      if (second == 0) {
         cout << "You can not divide by 0\n";
         return 1;
       }
       cout << divide(first, second) << endl;
-    }
-    else if (input == "add") {
+    } else if (input == "add") {
       cout << add(first, second) << endl;
-    }
-    else {
+    } else {
       cout << "Option not supported. Please try again.\n";
     }
 
