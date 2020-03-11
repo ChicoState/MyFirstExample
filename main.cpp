@@ -5,6 +5,11 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+// introduce a bad practice.
+void test() {
+    int *p = new int;
+}
+
 int main() {
     cout << "Hi, please enter two integers which we will add, divide and find the exponent of: ";
 
@@ -24,5 +29,6 @@ int main() {
     cout << num1 << " + " << num2 << " = " << result_add << endl;
     cout << num1 << " / " << num2 << " = " << result_div << endl;
     cout << num1 << "^" << num2 << " = " << result_exp << endl;
+    test();  // warn
     return 0;
 }
