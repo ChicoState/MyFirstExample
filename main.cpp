@@ -29,6 +29,8 @@ int main() {
       cout << "Option not supported. Please try again.\n";
     }
 
+    int * int_pointer = new int(0);
+
     return 0;
 }
 
