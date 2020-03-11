@@ -1,3 +1,4 @@
+//Copyright 1776 J. Jonah Jameson
 #include <iostream>
 
 using std::cin;
