@@ -1,5 +1,5 @@
 all:
-	g++ -Wno-analyzer-malloc-leak main.cpp
+	g++ main.cpp
 
 clean:
 	rm -f a.out

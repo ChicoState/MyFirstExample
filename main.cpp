@@ -25,11 +25,13 @@ int main() {
       cout << divide(first, second) << endl;
     } else if (input == "add") {
       cout << add(first, second) << endl;
-    } else {
+    } 
+    else 
+    {
       cout << "Option not supported. Please try again.\n";
     }
 
-    int * int_pointer = new int(0);
+
 
     return 0;
 }
