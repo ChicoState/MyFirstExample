@@ -1,4 +1,4 @@
-//Copyright 1776 J. Jonah Jameson
+// Copyright 1776 J. Jonah Jameson
 #include <iostream>
 
 using std::cin;
@@ -8,43 +8,36 @@ using std::endl;
 float divide(int, int);
 int add(int, int);
 
-int main()
-{
+int main() {
     cout << "Hi, would you like to add or divide? ";
     std::string input;
     cin >> input;
-    cout<<"Please enter two numbers: ";
+    cout << "Please enter two numbers: ";
 
     int first, second;
     cin >> first >> second;
 
-    if(input == "divide")
-    {
-      if(second == 0)
-      {
+    if (input == "divide") {
+      if (second == 0){
         cout << "You can not divide by 0\n";
         return 1;
       }
       cout << divide(first, second) << endl;
     }
-    else if(input == "add")
-    {
+    else if (input == "add") {
       cout << add(first, second) << endl;
     }
-    else
-    {
+    else {
       cout << "Option not supported. Please try again.\n";
     }
 
     return 0;
 }
 
-int add(int x, int y)
-{
+int add(int x, int y) {
   return x+y;
 }
 
-float divide(int x, int y)
-{
+float divide(int x, int y) {
   return (y == 0) ? 0 : (float)x/(float)y;
 }
