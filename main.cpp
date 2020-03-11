@@ -10,6 +10,11 @@ void test() {
     int *p = new int;
 }
 
+void test1() {
+    int x;
+    x = 1;
+}
+
 int main() {
     cout << "Hi, please enter two integers which we will add, divide and find the exponent of: ";
 
@@ -30,5 +35,6 @@ int main() {
     cout << num1 << " / " << num2 << " = " << result_div << endl;
     cout << num1 << "^" << num2 << " = " << result_exp << endl;
     test();  // warn
+    test1();  // warn
     return 0;
 }
