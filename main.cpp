@@ -6,12 +6,12 @@ using std::endl;
 
 int main()
 {
-    cout<<"Hi, please enter two numbers: ";
+    cout<<"Hi, please enter three numbers: ";
 
-    int x,y;
+    int x,y,z;
 
-    cin >> x >> y;
-    cout << x + y << endl;
+    cin >> x >> y >> z;
+    cout << x + y + z << endl;
 
     return 0;
 }
