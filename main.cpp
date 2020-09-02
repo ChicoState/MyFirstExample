@@ -12,6 +12,6 @@ int main()
 
     cin >> x >> y;
     cout << x + y << endl;
-
+    // This has now been altered
     return 0;
 }
