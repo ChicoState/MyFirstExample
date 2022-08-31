@@ -13,6 +13,9 @@ int main()
     cin >> x >> y;
     cout << x + y << endl;
     cout << x * y << endl;
+    // Adding subraction feature
+    cout << x-y << " is the subraction of numbers" << endl;
+
 
     return 0;
 }
