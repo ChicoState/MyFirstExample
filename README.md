@@ -1,3 +1,0 @@
-# MyFirstExample
-
-Why are you reading this? You have no reason....
