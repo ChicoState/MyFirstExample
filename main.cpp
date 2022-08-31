@@ -13,10 +13,9 @@ int main()
     cin >> x >> y;
     cout << x + y << endl;
     cout << x * y << endl;
-***************************
     // Added subtraction
     cout << x - y << endl;
-***************************
+=
 
     return 0;
 }
