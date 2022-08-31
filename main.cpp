@@ -15,7 +15,6 @@ int main()
     cout << x * y << endl;
     // Added subtraction
     cout << x - y << endl;
-=======
 
     return 0;
 }
