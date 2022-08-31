@@ -12,9 +12,14 @@ int main()
 
     cin >> x >> y;
     cout << x + y << endl;
+    cout << x - y << endl;
     cout << x * y << endl;
-    // Adding subraction feature
+
+    // Adding subraction feature better
     cout << x-y << " is the subraction of numbers" << endl;
+
+    cout << x / y << endl;
+    cout << x % y << endl;
 
 
     return 0;
