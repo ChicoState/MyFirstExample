@@ -3,7 +3,8 @@ name: C++ CI exercise 5
 on:
   push:
       branches: [ main ]
-  pull_request: [ main ]
+  pull_request: 
+      branches: [ main ]
   
 jobs:
   install:
