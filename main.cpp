@@ -6,6 +6,7 @@ using std::endl;
 
 int main()
 {
+  //Grant Meyer comments here
     cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
