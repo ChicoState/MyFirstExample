@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cmath>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -16,6 +16,7 @@ int main()
     cout << "Multiplication: " <<x * y << endl;
     cout << "Division: " << x / y << endl;
     cout << "Remainder: " <<x % y << endl;
-
+    cout << "Square root: " << sqrt(x);
+    cout << "Exponent: " << pow(x, y);
     return 0;
 }
