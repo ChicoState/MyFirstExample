@@ -1,5 +1,8 @@
 #include <iostream>
 #include <cmath>
+using std::cin;
+using std::cout;
+using std::endl;
 
 int main()
 {
@@ -15,5 +18,7 @@ int main()
     cout<< "Square root of x: "<<sqrt(x) <<endl;
     cout<< "Square root of y: "<<sqrt(y) <<endl;
     cout<<x << " to the power of "<< y<< " is "<< pow(x,y)<<endl;
-        return 0;
+/* add showing the maths and powers*/
+    return 0;
+
 }
