@@ -13,7 +13,7 @@ int main()
 
     cin >> x >> y;
     if(y ==0){
-        cout <<"Cannot divide by 0" <<endl;
+        cout <<"Cannot divide by 0!" <<endl;
         return 0;
     }
     cout << "Addition: " << x + y << endl;
