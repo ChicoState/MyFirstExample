@@ -4,7 +4,7 @@
 int main()
 {
     cout<<"Hi, please enter two whole numbers: ";
-
+//aa
     int x,y;
 
     std::cin >> x >> y;
