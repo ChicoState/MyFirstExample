@@ -1,9 +1,12 @@
 #include <iostream>
 #include <cmath>
+<<<<<<< HEAD
 
 using std::cin;
 using std::cout;
 using std::endl;
+=======
+>>>>>>> f04e00c410c940703c0714e7d3cb7d1fc814eccf
 
 int main()
 {
@@ -18,13 +21,13 @@ int main()
         return 0;
     }
 
-    cout << "Addition: " << x + y << endl;
-    cout << "Subtraction: " << x - y << endl;
-    cout << "Multiplication: " <<x * y << endl;
-    cout << "Division: " << x / y << endl;
-    cout << "Remainder: " << x % y << endl;
-    cout << "Power: " << pow(x, y) << endl;
-    cout << "Square root: " << sqrt(x) << endl;
+    std::cout << "Addition: " << x + y << std::endl;
+    std::cout << "Subtraction: " << x - y << std::endl;
+    std::cout << "Multiplication: " <<x * y << std::endl;
+    std::cout << "Division: " << x / y << std::endl;
+    std::cout << "Remainder: " <<x % y << std::endl;
+    std::cout << "Square Root: " << sqrt(x) << std::endl;
+    std::cout << "Square: " << pow(x, y) << std::endl;
 
     return 0;
 }
