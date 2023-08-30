@@ -1,9 +1,11 @@
 #include <iostream>
 #include <cmath>
 
+
 using std::cin;
 using std::cout;
 using std::endl;
+
 
 int main()
 {
@@ -21,5 +23,6 @@ int main()
     cout << "Square root of " << y << " is " << sqrt(y) << endl;
     cout << x << "^" <<  y << "=" << pow(x, y) << endl;
     
+
     return 0;
 }
