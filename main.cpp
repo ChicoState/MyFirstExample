@@ -8,6 +8,10 @@ int main()
     int x,y;
 
     std::cin >> x >> y;
+    if (y == 0) {
+        std::cout<<"Dividing by zero is not a number.";
+        return 0;
+    }
     std::cout << "Addition: " << x + y << std::endl;
     std::cout << "Subtraction: " << x - y << std::endl;
     std::cout << "Multiplication: " <<x * y << std::endl;
