@@ -18,5 +18,6 @@ int main()
     cout << "Sqaure Root of " <<x<<" is "<< sqrt(x) << endl;
     cout << "Sqaure Root of "<<y<<" is "<< sqrt(y) << endl;
     cout << x<<"^"<<y<<"=" << pow(x, y) << endl;
+
     return 0;
 }
