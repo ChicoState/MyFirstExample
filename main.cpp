@@ -12,6 +12,10 @@ int main()
     int x,y;
 
     cin >> x >> y;
+    if(y ==0){
+        cout <<"Cannot divide by 0" <<endl;
+        return 0;
+    }
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " <<x * y << endl;
