@@ -15,6 +15,7 @@ int main()
     std::cout << "Remainder: " <<x % y << std::endl;
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
+    std::cout << "Increment:" << ++x << std::endl;
 
     return 0;
 }
