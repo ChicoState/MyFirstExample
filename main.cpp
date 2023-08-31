@@ -1,23 +1,20 @@
 #include <iostream>
 #include <cmath>
 
-using std::cin;
-using std::cout;
-using std::endl;
-
 int main()
 {
     cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
 
-    cin >> x >> y;
-    cout << x << "+" << y << "=" << x + y << endl;
-    cout << x << "-" << y << "=" << x - y << endl;
-    cout << x << "*" << y << "=" << x * y << endl;
-    cout << x << "/" << y << "=" << (int) x / y << " with remainder of " << x % y << endl;
-    cout << "Square Root of "<< x << "is " <<sqrt(x) << endl;
-    cout << "Square Root of "<< y << "is " <<sqrt(y) << endl;
-    cout << x << "^" << y << "=" << pow(x,y) << endl;
+    std::cin >> x >> y;
+    std::cout << "Addition: " << x + y << std::endl;
+    std::cout << "Subtraction: " << x - y << std::endl;
+    std::cout << "Multiplication: " <<x * y << std::endl;
+    std::cout << "Division: " << x / y << std::endl;
+    std::cout << "Remainder: " <<x % y << std::endl;
+    std::cout << "Square Root: " << sqrt(x) << std::endl;
+    std::cout << "Square: " << pow(x, y) << std::endl;
+
     return 0;
 }
