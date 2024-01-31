@@ -3,6 +3,7 @@
 
 int main()
 {
+    std::cout << "This is Kevin!\n";
     std::cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
