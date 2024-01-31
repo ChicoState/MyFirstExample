@@ -14,7 +14,7 @@ int main()
     std::cout << "Division: " << x / y << std::endl;
     std::cout << "Remainder: " <<x % y << std::endl;
     std::cout << "Square Root: " << sqrt(x) << std::endl;
-    std::cout << "Square: " << pow(x, y) << std::endl;
+    std::cout << "Square: " << x << '^' << y << '=' << pow(x, y) << std::endl;
 
     return 0;
 }
