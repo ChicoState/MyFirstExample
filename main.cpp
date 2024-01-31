@@ -8,13 +8,14 @@ int main()
     int x,y;
 
     std::cin >> x >> y;
-    std::cout << "Addition: " << x + y << std::endl;
-    std::cout << "Subtraction: " << x - y << std::endl;
-    std::cout << "Multiplication: " <<x * y << std::endl;
-    std::cout << "Division: " << x / y << std::endl;
-    std::cout << "Remainder: " <<x % y << std::endl;
-    std::cout << "Square Root: " << sqrt(x) << std::endl;
-    std::cout << "Square: " << pow(x, y) << std::endl;
+    std::cout << x << "+" << y <<"="<<x+y<< std::endl; //addition
+    std::cout << x << "-" << y << "=" << x - y << std::endl; //subtraction
+    std::cout << x << "*" << y << "=" << x * y << std::endl; //multiplication
+    std::cout << x << "/" << y << "=" << x / y <<" with remainder of "<<x%y << std::endl; //div/mod
+    //std::cout << "Remainder: " <<x % y << std::endl;
+    std::cout << "Square Root of " << x << " is "<< sqrt(x) << std::endl; //square x
+    std::cout << "Square Root of " << y << " is "<< sqrt(y) << std::endl; //square y
+    std::cout << x << "^" << y << "=" << pow(x, y) << std::endl; //expo
 
     return 0;
 }
