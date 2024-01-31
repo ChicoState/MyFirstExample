@@ -7,6 +7,10 @@ int main()
 
     int x,y;
 
+    if (y == 0) {
+        std::cout << "Dividing by zero is not a number.\n" << std::endl;
+    }
+
     std::cin >> x >> y;
     std::cout << "Addition: " << x << " + " << y << " = " << x + y << std::endl;
     std::cout << "Subtraction: " << x << " - " << y << " = " << x - y << std::endl;
