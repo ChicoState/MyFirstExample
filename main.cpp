@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 int main()
 {
@@ -9,13 +10,14 @@ int main()
     int x,y;
 
     std::cin >> x >> y;
-    std::cout << "Addition: " << x + y << std::endl;
-    std::cout << "Subtraction: " << x - y << std::endl;
-    std::cout << "Multiplication: " <<x * y << std::endl;
-    std::cout << "Division: " << x / y << std::endl;
-    std::cout << "Remainder: " <<x % y << std::endl;
-    std::cout << "Square Root: " << sqrt(x) << std::endl;
-    std::cout << "Square: " << pow(x, y) << std::endl;
+    std::cout << "Addition: " << x << "+"  << y << "=" << x + y << std::endl;
+    std::cout << "Subtraction: " << x << "-"  << y << "=" << x - y << std::endl;
+    std::cout << "Multiplication: " << x << "*"  << y << "=" << x * y << std::endl;
+    std::cout << "Division: " << x << "/"  << y << "=" << x / y << " with remainder of ";
+    std::cout << x % y << std::endl;
+    std::cout << "Square root of " << x << " is " << sqrt(x) << std::endl;
+    std::cout << "Square root of " << y << " is " << sqrt(y) << std::endl;
+    std::cout << "Square: " << x << "^" << y << "=" << pow(x, y) << std::endl;
 
-    return 0;
+    return 0; 
 }
