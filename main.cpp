@@ -3,8 +3,8 @@
 
 int main()
 {
-    cout << "This is Kevin!\n";
-    cout<<"Hi, please enter two whole numbers: ";
+    std::cout << "This is Kevin!\n";
+    std::cout <<"Hi, please enter two whole numbers: ";
 
     int x,y;
 
@@ -12,7 +12,10 @@ int main()
     std::cout << "Addition: " << x + y << std::endl;
     std::cout << "Subtraction: " << x - y << std::endl;
     std::cout << "Multiplication: " <<x * y << std::endl;
-    std::cout << "Division: " << x / y << std::endl;
+    std::cout << "Division: ";
+    if(y) {std::cout << x / y;}
+    else{ std::cout << "NaN";}
+    std::cout << std::endl;
     std::cout << "Remainder: " <<x % y << std::endl;
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
