@@ -4,6 +4,7 @@
 int main()
 {
     cout << "This is Kevin!\n";
+    cout << "No, this is Patrick!\n";
     cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
