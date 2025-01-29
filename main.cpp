@@ -4,7 +4,7 @@
 int main()
 {
     cout << "This is Aidan!\n";
-    cout<<"Hi, please enter two whole numbers: ";
+    cout<<"Hi there, please enter two whole numbers: ";
 
     int x,y;
 
