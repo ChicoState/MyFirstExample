@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 int main()
 {
     cout << "This is Kevin!\n";
@@ -12,7 +14,14 @@ int main()
     std::cout << "Addition: " << x + y << std::endl;
     std::cout << "Subtraction: " << x - y << std::endl;
     std::cout << "Multiplication: " <<x * y << std::endl;
-    std::cout << "Division: " << x / y << std::endl;
+    if(y)
+        
+        std::cout << "Division: " << x / y << std::endl;
+
+    else
+
+        cout << "Dividing by zero is not a number." << endl;
+    
     std::cout << "Remainder: " <<x % y << std::endl;
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
