@@ -1,9 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-using std::cin;
-using std::cout;
-using std::endl;
+using namespace std;
 
 int main()
 {
@@ -14,11 +12,14 @@ int main()
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
-    cout << "Multiplication: " << x * y << endl;
-    cout << "Division: " << x / y << endl;
-    cout << "Remainder: " << x % y << endl;
-    cout << "Square Root: " << sqrt(x) << endl;
-    cout << "Square: " << pow(x, y) << endl;
+    cout << "Multiplication: " <<x * y << endl;
+    if (y != 0)
+    {
+        cout << "Division: " << x / y << endl;
+    }else{std::cout << "Can not divide by zero!"<<endl;}
+    cout << "Remainder: " <<x % y << endl;;
+    cout << "Square Root: " << sqrt(x) << endl;;
+    cout << "Square: " << pow(x, y) << endl;;
 
     return 0;
 }
