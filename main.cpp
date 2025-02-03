@@ -2,14 +2,18 @@
 #include <cmath>
 using namespace std;
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main()
 {
-    cout << "This is Kevin!\n";
     cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
 
     cin >> x >> y;
+  
     cout << x << "+" << y << "=" << x + y << endl;
     cout << x << "-" << y << "=" << x - y << endl;
     cout << x << "*" << y << "=" << x * y << endl;
