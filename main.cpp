@@ -7,7 +7,8 @@ using std::endl;
 
 int main()
 {
-    cout << "Hi, please enter two whole numbers: ";
+    std::cout << "This is Kevin!\n";
+    std::cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
 
