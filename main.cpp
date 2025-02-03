@@ -5,8 +5,7 @@ using namespace std;
 
 int main()
 {
-    cout << "This is Kevin!\n";
-    cout<<"Hi, please enter two whole numbers: ";
+    cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
 
