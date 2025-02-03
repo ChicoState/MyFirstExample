@@ -11,7 +11,7 @@ int main()
     std::cin >> x >> y; 
     std::cout << "Addition: " << x + y << std::endl;
     std::cout << "Subtraction: " << x - y << std::endl;
-    std::cout << "Multiplication: " <<x * y << std::endl;
+    std::cout << "Multiplication: " << x * y << std::endl;
     // checking if second number entered is 0
     if(y == 0)
     {
