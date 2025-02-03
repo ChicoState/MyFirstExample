@@ -3,14 +3,19 @@
 #include <string>
 using namespace std;
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main()
 {
-    cout << "This is Kevin!\n" << endl;
-    cout << "Hi, please enter two whole numbers: " << endl;
+
+    cout << "Hi, please enter two whole numbers: ";
+
 
     int x,y;
     cin >> x >> y;
-
+    
 
     cout << "Addition: " 		<< x + y 	<< endl;
     cout << "Subtraction: " 	<< x - y 	<< endl;
@@ -23,6 +28,7 @@ int main()
     }
     cout << "Square Root: " 	<< sqrt(x) 	<< endl;
     cout << "Square: " 		    << pow(x, y) 	<< endl;
+
 
     return 0;
 }
