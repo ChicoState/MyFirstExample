@@ -1,6 +1,10 @@
 #include <iostream>
 #include <cmath>
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main()
 {
 	std::cout << "This is Kevin!\n";
@@ -26,6 +30,7 @@ int main()
     
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
+
 
     return 0;
 }
