@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << "This is Cesar!\n";
+    cout << "This is Kevin!\n";
     cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
