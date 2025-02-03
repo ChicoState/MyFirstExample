@@ -1,9 +1,12 @@
 #include <iostream>
 #include <cmath>
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main()
 {
-    //cout << "This is Jesus!\n";
     cout<<"Hi, please enter two whole numbers to peform a calculation: ";
 
     int x,y;
