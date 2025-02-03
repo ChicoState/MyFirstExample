@@ -1,17 +1,19 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 
-using std::cin;
-using std::cout;
-using std::endl;
 
 int main()
 {
-    cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    std::cout << "This is Kevin!\n";
+    std::cout<<"Hi, please enter two whole numbers: ";
+    std:: cout << "Hi, please enter two whole numbers: ";
+    int x;
+    int y;
 
-    cin >> x >> y;
+    cin >> x;
+    cin >> y;
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
