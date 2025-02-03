@@ -20,9 +20,10 @@ int main()
     // if second number is not zero then display division 
     else
     {
-    	std::cout << "Division: " << x / y << std::endl;
+    	std::cout << "Division: " << x/y << std::endl;
+		std::cout << "Remainder: " << x % y << std::endl;
     }
-    std::cout << "Remainder: " <<x % y << std::endl;
+    
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
 
