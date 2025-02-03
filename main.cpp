@@ -1,16 +1,19 @@
 #include <iostream>
 #include <cmath>
 
-int main() {
-	std::cout << "Hi, please enter two whole numbers: ";
+
+using std::cin;
+using std::cout;
+using std::endl;
+
+int main()
+{
+    cout << "Hi, please enter two whole numbers: ";
 
 	int x, y;
 	std::cin >> x >> y;
 
-	if (y == 0) {
-		std::cout << "Cannot divide by 0, try again\n";
-		return 1;
-	}
+
 
 	std::cout << x << " + " << y << " = " << x + y << std::endl;
 	std::cout << x << " - " << y << " = " << x - y << std::endl;
