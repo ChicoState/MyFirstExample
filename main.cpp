@@ -9,9 +9,18 @@ int main()
 {
     cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int x;
+    int y = 0;
 
-    cin >> x >> y;
+    while(y == 0){
+        cin >> x >> y;
+        if(y == 0){
+            cout << "Second number can't be 0...";
+            cout << "Hi, please enter two whole numbers: ";
+        } 
+    }
+
+
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
