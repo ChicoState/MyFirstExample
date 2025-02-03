@@ -21,6 +21,9 @@ int main()
 
     cin >> x >> y;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50d5486 (updated gitignore file and removed std:: by adding namespace std)
     cout << x << "+" << y << "=" << x + y << endl;
     cout << x << "-" << y << "=" << x - y << endl;
     cout << x << "*" << y << "=" << x * y << endl;
@@ -28,6 +31,7 @@ int main()
     cout << "Square root of " << x << " is " << sqrt(x) << endl;
     cout << "Square root of " << y << " is " << sqrt(y) << endl;
     cout << x << "^" << y  << "=" << pow(x, y) << endl;
+<<<<<<< HEAD
 =======
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
@@ -37,6 +41,8 @@ int main()
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
 >>>>>>> b5466e8cb9209dcb082320cce7243b5d3f3eafcb
+=======
+>>>>>>> 50d5486 (updated gitignore file and removed std:: by adding namespace std)
 
     return 0;
 }
