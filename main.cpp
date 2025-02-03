@@ -1,15 +1,20 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
+<<<<<<< HEAD
+=======
+using std::cin;
+using std::cout;
+using std::endl;
+>>>>>>> b5466e8cb9209dcb082320cce7243b5d3f3eafcb
 
 int main()
 {
-    cout << "This is Kevin!\n";
-    cout<<"Hi, please enter two whole numbers: ";
+    cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
 
+<<<<<<< HEAD
     std::cin >> x >> y;
     std::cout << "Addition: "<< x << '+' << y << '=' << x + y << std::endl;
     std::cout << "Subtraction: " << x << '-' << y << '=' << x - y << std::endl;
@@ -19,6 +24,8 @@ int main()
     std::cout << "Square Root of "<< x << " is " << sqrt(x) << std::endl;
     std::cout << "Squeare Root of " << y << " is " << sqrt(y) << std::endl;
     std::cout << "Square: " << x << '^' << y << '='<<pow(x, y) << std::endl;
+=======
+>>>>>>> b5466e8cb9209dcb082320cce7243b5d3f3eafcb
 
     return 0;
 }
