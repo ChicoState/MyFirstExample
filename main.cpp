@@ -1,8 +1,13 @@
 #include <iostream>
 #include <cmath>
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main()
 {
+
    std::cout << "This is Kevin!" << std::endl;
    std:: cout<< "Hi, please enter two whole numbers: " << std::endl;
 
@@ -22,6 +27,7 @@ int main()
     std::cout << "Square Root: " << "Square root of " << y << " is "  << sqrt(y) << std::endl;
 
     std::cout << "Square: " << x << "^" << y << "=" << pow(x, y) << std::endl;
+
 
     return 0;
 }
