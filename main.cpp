@@ -1,3 +1,6 @@
+//Lawrence Elias Boyd
+//2/3/2025
+
 #include <iostream>
 #include <cmath>
 
