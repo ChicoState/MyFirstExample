@@ -1,3 +1,6 @@
+//Lawrence Elias Boyd
+//2/3/2025
+
 #include <iostream>
 #include <cmath>
 
@@ -7,6 +10,7 @@ using std::endl;
 
 int main()
 {
+	cout << "This is Kevin!\n";
     cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
