@@ -2,9 +2,6 @@
 #include <cmath>
 using namespace std;
 
-//using std::cin;
-//using std::cout;
-//using std::endl;
 
 int main()
 {
@@ -27,4 +24,3 @@ int main()
 
     return 0;
 }
-//test
