@@ -5,6 +5,10 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+/*
+This program is used for a demo for intro to github
+*/
+
 int main()
 {
     cout << "Hi, please enter two whole numbers: ";
