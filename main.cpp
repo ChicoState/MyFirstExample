@@ -10,7 +10,6 @@ int main()
     cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
-
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
