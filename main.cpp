@@ -6,11 +6,11 @@ using std::cout;
 using std::endl;
 
 
+
 int main()
 {
     cout << "This is Aidan!\n";
     cout<<"Hi there, please enter two whole numbers: ";
-
     int x,y;
 
     cin >> x >> y;
