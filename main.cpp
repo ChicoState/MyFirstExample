@@ -12,7 +12,14 @@ int main()
     std::cout << x << "+" << y << "=" << x + y << std::endl;
     std::cout << x << "-" << y << "=" << x - y << std::endl;
     std::cout << x << "*" << y << "=" << x * y << std::endl;
-    std::cout << x << "/" << y << "=" << x / y << " with remainder of " << x % y << std::endl;
+    if (y != 0) // fix NAN
+    {
+        std::cout << x << "/" << y << "=" << x / y << " with remainder of " << x % y << std::endl;
+    }
+    else
+    {
+        std::cout << "Dividing by zero is not a number." << std::endl;
+    }
     std::cout << "The Square Root of " << x << " is " << sqrt(x) << std::endl;
     std::cout << "The Square Root of " << y << " is " << sqrt(y) << std::endl;
     std::cout << x << "^" << y << "=" << pow(x, y) << std::endl;
