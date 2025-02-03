@@ -7,18 +7,20 @@ using std::endl;
 
 int main()
 {
-    cout << "Hi, please enter two whole numbers: ";
+    std::cout << "This is Elizabeth!\n";
+    std::cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
 
-    cin >> x >> y;
-    cout << "Addition: " << x + y << endl;
-    cout << "Subtraction: " << x - y << endl;
-    cout << "Multiplication: " << x * y << endl;
-    cout << "Division: " << x / y << endl;
-    cout << "Remainder: " << x % y << endl;
-    cout << "Square Root: " << sqrt(x) << endl;
-    cout << "Square: " << pow(x, y) << endl;
+    std::cin >> x >> y;
+    std::cout << x << "+" << y << "=" << x + y << std::endl;
+    std::cout << x << "-" << y << "=" << x - y << std::endl;
+    std::cout << x << "*" << y << "=" << x * y << std::endl;
+    std::cout << x << "/" << y << "=" << x / y << " with remainder of " << x % y << std::endl;
+    // std::cout << "Remainder: " << x % y << std::endl;
+    std::cout << "Square Root: " << x << " is " << sqrt(x) << std::endl;
+    std::cout << "Square Root: " << y << " is " << sqrt(y) << std::endl;
+    std::cout << x << "^" << y << "=" << pow(x, 2) << std::endl;
 
     return 0;
 }
