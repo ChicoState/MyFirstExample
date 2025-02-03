@@ -12,7 +12,7 @@ int main()
     int x,y;
 
     cin >> x >> y;
-    cout << "Addition: "<< x << " + "<<  y << " = " << x + y << endl;
+    cout << "Addition:"<< x << " + "<<  y << " = " << x + y << endl;
     cout << "Subtraction: " << x << " - "<<  y << " = " << x - y << endl;
     cout << "Multiplication: " << x << " * "<<  y << " = " << x * y << endl;
     cout << "Division: " << x << "/"<<  y << " = "  << x / y << endl;
