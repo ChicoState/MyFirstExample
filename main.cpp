@@ -7,7 +7,7 @@ using std::endl;
 
 int main()
 {
-    cout << "Hi, please enter two whole numbers: NaN";
+    cout << "Hi, please enter two whole numbers: MathOperation";
 
     int x,y;
 
