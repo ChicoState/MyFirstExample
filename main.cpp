@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    cout << "This is Kevin!\n";
+    cout << "This is Christian Utrup!\n";
     cout<<"Hi, please enter two whole numbers: ";
 
     int x,y;
