@@ -5,6 +5,8 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+//Lecture 09/08
+
 int main()
 {
     cout << "Hi, please enter two whole numbers: ";
