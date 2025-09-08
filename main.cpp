@@ -12,9 +12,9 @@ int main()
     int x,y;
 
     cin >> x >> y;
-    cout << "Addition: " << x + y << endl;
-    cout << "Subtraction: " << x - y << endl;
-    cout << "Multiplication: " << x * y << endl;
+    cout << x << "+" << y << "=" << x + y << "\n";
+    cout << x << "-" << y << "=" << x - y << "\n";
+    cout << x << "*" << y << "=" << x * y << "\n";
     cout << "Division: " << x / y << endl;
     cout << "Remainder: " << x % y << endl;
     cout << "Square Root: " << sqrt(x) << endl;
