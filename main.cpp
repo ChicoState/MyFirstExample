@@ -9,16 +9,23 @@ int main()
 {
     cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int x, y;
 
     cin >> x >> y;
-    cout << "Addition: " << x + y << endl;
-    cout << "Subtraction: " << x - y << endl;
-    cout << "Multiplication: " << x * y << endl;
-    cout << "Division: " << x / y << endl;
-    cout << "Remainder: " << x % y << endl;
-    cout << "Square Root: " << sqrt(x) << endl;
-    cout << "Square: " << pow(x, y) << endl;
-
+    cout << x << "+" << y << "=" << x + y << endl;
+    cout << x << "-" << y << "=" << x - y << endl;
+    cout << x << "*" << y << "=" << x * y << endl;
+    if (y == 0)
+    {
+        cout << "Division by zero is not allowed." << endl;
+    }
+    else
+    {
+        cout << x << "/" << y << "=" << x / y << endl;
+        cout << "remainder: " << x << "/" << y << "=" << x % y << endl;
+    }
+    cout << "Square root of " << x << ": " << sqrt(x) << endl;
+    cout << "square root of " << y << ": " << sqrt(y) << endl;
+    cout << x << "^" << y << "=" << pow(x, y) << endl;
     return 0;
 }
