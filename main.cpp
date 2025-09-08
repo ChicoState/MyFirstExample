@@ -9,7 +9,7 @@ int main()
 {
     cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int x, y;
 
     cin >> x >> y;
     cout << x << "+" << y << "=" << x + y << endl;
