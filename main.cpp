@@ -14,9 +14,9 @@ int main()
     int x,y;
 
     cin >> x >> y;
-    cout << "Addition: " << x << "+" << y << "= " << x + y << endl;
-    cout << "Subtraction: " << x << "-" << y << "= " << x - y << endl;
-    cout << "Multiplication: " << x * y << endl;
+    cout << "Addition: " << x << " + " << y << " = " << x + y << endl;
+    cout << "Subtraction: " << x << "-" << y << " = " << x - y << endl;
+    cout << "Multiplication: " << x << " * " << y << " = " << x * y << endl;
     cout << "Division: " << x / y << " with remainder of " << x % y << endl;
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
