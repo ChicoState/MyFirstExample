@@ -8,39 +8,39 @@ int main()
 
     int x,y;
 
-    cin >> x >> y;
+    std::cin >> x >> y;
     
     //cout << "Addition: " << x + y << endl;
-    cout << x << "+" << y << "=" << x + y << endl;
+    std::cout << x << "+" << y << "=" << x + y << std::endl;
     
     //cout << "Subtraction: " << x - y << endl;
-    cout << x << "-" << y << "=" << x - y << endl;
+    std::cout << x << "-" << y << "=" << x - y << std::endl;
     
     //cout << "Multiplication: " << x * y << endl;
-    cout << x << "*" << y << "=" << x * y << endl;
+    std::cout << x << "*" << y << "=" << x * y << std::endl;
 
     //cout << "Division: " << x / y << endl;
     //cout << "Remainder: " << x % y << endl;
     
     if (y == 0) {
-        cout << "Dividing by zero is not a number." << endl;
+        std::cout << "Dividing by zero is not a number." << std::endl;
     }
     else {
-        cout << x << "/" << y << "=" << x / y;
+        std::cout << x << "/" << y << "=" << x / y;
         if (x % y > 0) {
-        cout << " with remainder of " << x % y << endl;
+        std::cout << " with remainder of " << x % y << std::endl;
         }
         else {
-            cout << endl;
+            std::cout << std::endl;
         }
     }
 
     //cout << "Square Root: " << sqrt(x) << endl;
-    cout << "Square root of " << x << " is " << sqrt(x) << endl; 
-    cout << "Square root of " << y << " is " << sqrt(y) << endl; 
+    std::cout << "Square root of " << x << " is " << sqrt(x) << std::endl; 
+    std::cout << "Square root of " << y << " is " << sqrt(y) << std::endl; 
 
     //cout << "Square: " << pow(x, y) << endl;
-    cout << x << "^" << y << "=" << pow(x,y) << endl;
+    std::cout << x << "^" << y << "=" << pow(x,y) << std::endl;
 
     return 0;
 }
