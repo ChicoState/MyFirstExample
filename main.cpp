@@ -12,7 +12,11 @@ int main()
     std::cout << "Addition: " << x + y << std::endl;
     std::cout << "Subtraction: " << x - y << std::endl;
     std::cout << "Multiplication: " << x * y << std::endl;
-    std::cout << "Division: " << x / y << std::endl;
+     if(y != 0){
+         std::cout << "Division: " << x / y << std::endl;
+	}else{
+	 std::cout << "Dividing by a 0 is not possible" <<std::endl;
+	}//else
     std::cout << "Remainder: " << x % y << std::endl;
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
