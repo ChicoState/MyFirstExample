@@ -4,7 +4,10 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using std::sqrt;
+using std::pow;
 
+using namespace std;
 
 int main()
 {
@@ -17,7 +20,7 @@ int main()
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
 
-    if(y == 0 ) {
+    if(y == 0) {
         cout << "Dividing by zero is not a number." << endl;
     } else {
         cout << "Division: " << x / y << endl;
