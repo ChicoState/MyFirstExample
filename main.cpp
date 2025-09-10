@@ -1,13 +1,11 @@
 #include <iostream>
 #include <cmath>
 
-using std::cin;
-using std::cout;
-using std::endl;
-
+using namespace std;
 int main()
 {
-    cout << "Hi, please enter two whole numbers: ";
+    std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
+    std::cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
 
@@ -17,7 +15,7 @@ int main()
     cout << "Multiplication: " << x * y << endl;
     if (y == 0)
     {
-	   cout << "Dividing by zero is not a number." << end;
+	   cout << "Dividing by zero is not a number." << endl;
     }
     else 
     {
