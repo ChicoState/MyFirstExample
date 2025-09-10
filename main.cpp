@@ -11,7 +11,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Hi, please enter two whole numbers: ";
+    std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
+    std::cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
 
