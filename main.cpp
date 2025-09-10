@@ -6,6 +6,7 @@ using std::cout;
 using std::endl;
 using std::sqrt;
 using std::pow;
+using std::nan;
 
 using namespace std;
 
