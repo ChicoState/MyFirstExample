@@ -3,6 +3,7 @@
 
 int main()
 {
+    cout << "Welcome to the DisplayMath Program!" << endl;
     std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     std::cout << "Hi, please enter two whole numbers: ";
 
