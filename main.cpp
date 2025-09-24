@@ -14,8 +14,8 @@ int main()
     std::cout << x << " - " << y << " = " << x - y << std::endl;
     std::cout << x << " * " << y << " = " << x * y << std::endl;
     std::cout << x << " / " << y << " = " << x / y << " with reminder of " << x % y << std::endl;
-    std::cout << "Square root of " << x << " is " << sqrt(x) << std::endl;
-    std::cout << "Square root of " << y << " is " << sqrt(y) << std::endl;
+    std::cout << "Square roots of " << x << " is " << sqrt(x) << std::endl;
+    std::cout << "Square roots of " << y << " is " << sqrt(y) << std::endl;
     std::cout <<  x << "^" << y << "=" << pow(x, y) << std::endl;
 
     return 0;
