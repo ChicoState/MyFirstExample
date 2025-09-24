@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-
 int main()
 {
     std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
@@ -10,6 +9,7 @@ int main()
     int x,y;
 
     std::cin >> x >> y;
+
     std::cout << x << " + " << y << " = " << x + y << std::endl;
     std::cout << x << " - " << y << " = " << x - y << std::endl;
     std::cout << x << " * " << y << " = " << x * y << std::endl;
