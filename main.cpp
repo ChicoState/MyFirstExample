@@ -13,6 +13,7 @@ int main()
     std::cout << "Subtraction: " << x - y << std::endl;
     std::cout << "Multiplication: " << x * y << std::endl;
     std::cout << "Division: " << x / y << std::endl;
+    std::cout << "Change" << std::endl;
     std::cout << "Remainder: " << x % y << std::endl;
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
