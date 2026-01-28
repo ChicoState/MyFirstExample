@@ -14,7 +14,8 @@ int main()
     std::cout << "Multiplication: " << x * y << std::endl;
     if (y == 0) { 
         std::cout << "Dividing by zero is not a number.\n";
-    
+    } else {
+        std::cout << "Division: " << x / y << std::endl;
     }
     std::cout << "Division: " << x / y << std::endl;
     std::cout << "Remainder: " << x % y << std::endl;
