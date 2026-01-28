@@ -14,6 +14,7 @@ int main()
     std::cout << "Multiplication: " << x * y << std::endl;
     std::cout << "Division: " << x / y << std::endl;
     std::cout << "Remainder: " << x % y << std::endl;
+    if(x = 0){ std::cout<<"Cannot divide by 0"<< std::endl;}
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
 
