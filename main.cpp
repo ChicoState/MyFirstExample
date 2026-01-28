@@ -3,10 +3,12 @@
 
 int main()
 {
+    // Changes made....
+
     std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     std::cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int x, y;
 
     std::cin >> x >> y;
     std::cout << "Addition: " << x + y << std::endl;
