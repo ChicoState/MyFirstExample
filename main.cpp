@@ -6,7 +6,8 @@ int main()
     std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     std::cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    uint32_t x,y;
+
 
     std::cin >> x >> y;
     std::cout << "Addition: " << x + y << std::endl;
