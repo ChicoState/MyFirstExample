@@ -13,7 +13,7 @@ int main()
     std::cout << "Subtraction: " << x - y << std::endl;
     std::cout << "Multiplication: " << x * y << std::endl;
     if(y == 0)
-      std::cout << "You cannot divide by zero input a different number" << std::endl;
+      std::cout << "You cannot divide by zero input a number that isn't 0." << std::endl;
     else{
       std::cout << "Division: " << x / y << std::endl;
     }
