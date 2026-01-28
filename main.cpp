@@ -8,6 +8,11 @@ int main()
 
     int x,y;
 
+    if (y == 0) {
+        std::cout << "Error: Division or remainder by zero is not allowed." << std::endl;
+        return 1;
+    }
+
     std::cin >> x >> y;
     std::cout << "Addition: " << x + y << std::endl;
     std::cout << "Subtraction: " << x - y << std::endl;
