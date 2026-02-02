@@ -1,6 +1,9 @@
 #include <iostream>
 #include <cmath>
 
+using std::endl();
+using std::cin;
+using std::cout();
 int main()
 {
     std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
