@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <cstdint>
 
 using std::endl;
 using std::cin;
@@ -10,7 +11,7 @@ int main()
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int32_t x,y;
 
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
