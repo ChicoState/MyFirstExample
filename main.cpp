@@ -10,7 +10,8 @@ int main()
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    uint32_t x,y;
+
 
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
