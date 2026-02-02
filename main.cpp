@@ -20,7 +20,7 @@ int main()
         cout << "Dividing by zero is not a number.\n";
     }
     else{
-        cout << "Division: " << x / y << endl;
+      cout << "Division: " << x / y << endl;
     }
     cout << "Remainder: " << x % y << endl;
     cout << "Square Root: " << sqrt(x) << endl;
