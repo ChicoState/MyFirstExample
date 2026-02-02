@@ -14,14 +14,10 @@ int main()
 
     cin >> x >> y;
 	
-	if (y == 0) {
-		cout << "Dividing by zero is not a number." << endl;
-		return 1;
-    	}
-
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
+
     if (y == 0) {
 	cout << "Dividing by zero is not a number." << endl;
     } else{
