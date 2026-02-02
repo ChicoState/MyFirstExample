@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
 
-using std::endl;
-using std::cin;
-using std::cout;
+using endl;
+using cin;
+using cout;
 
 int main()
 {
@@ -12,11 +12,31 @@ int main()
 
     int x,y;
 
+<<<<<<< HEAD
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
     cout << "Division: " << x / y << endl;
+    cout << "Remainder: " << x % y << endl;
+    cout << "Square Root: " << sqrt(x) << endl;
+    cout << "Square: " << pow(x, y) << endl;
+    if ( y== 0) {
+
+        std::cout << "Dividing by zero is not a number.\n";
+
+    } else{
+
+        std::cout << "Division: " << x/y << endl;
+    }
+
+=======
+    cin >> x >> y;
+    cout << "Addition: " << x + y << endl;
+    cout << "Subtraction: " << x - y << endl;
+    cout << "Multiplication: " << x * y << endl;
+    cout << "Division: " << x / y << endl;
+>>>>>>> main
     cout << "Remainder: " << x % y << endl;
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
