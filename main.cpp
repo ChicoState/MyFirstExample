@@ -21,5 +21,7 @@ int main()
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
 
+    std::cout << "Test information" << std:: endl;
+
     return 0;
 }
