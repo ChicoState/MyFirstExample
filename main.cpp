@@ -6,8 +6,8 @@ using std::cin;
 using std::cout();
 int main()
 {
-    std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
-    std::cout << "Hi, please enter two whole numbers: ";
+    cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
+    cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
     std::cin >> x >> y;
