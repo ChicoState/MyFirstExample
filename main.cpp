@@ -11,6 +11,7 @@ int main()
     cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
+<<<<<<< HEAD
 
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
@@ -23,5 +24,5 @@ int main()
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
 
-    return 0;
+   return 0;
 }
