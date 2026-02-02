@@ -16,10 +16,12 @@ int main()
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
-    cout << "Division: " << x / y << endl;
-    cout << "Remainder: " << x % y << endl;
+    if(y)cout << "Division: " << x / y << endl;
+    else cout << "Division by zero is not a number" << endl;
+    if(y) cout << "Remainder: " << x % y << endl;
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
+
 
     return 0;
 }
