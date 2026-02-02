@@ -16,7 +16,11 @@ int main()
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
+
     if( y == 0 ){
+
+    cout << "Division: " << x / y << endl;
+        if( y == 0 ){
       cout << "Dividing by zero is not a number.\n";
     }
     else{
