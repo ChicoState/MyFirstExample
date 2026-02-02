@@ -5,8 +5,6 @@ using std::cin;
 using std::endl;
 using std::cout;
 
-
-
 int main()
 {
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
