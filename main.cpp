@@ -17,5 +17,7 @@ int main()
     std::cout << "Square Root: " << sqrt(x) << std::endl;
     std::cout << "Square: " << pow(x, y) << std::endl;
 
+    std::cout << "Test information" << std:: endl;
+
     return 0;
 }
