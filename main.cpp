@@ -1,16 +1,18 @@
 #include <iostream>
 #include <cmath>
 
-using std::endl;
+
 using std::cin;
 using std::cout;
+using std::endl;
+
 
 int main()
 {
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int x, y;
 
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
