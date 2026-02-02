@@ -6,11 +6,13 @@ using std::cin;
 using std::cout;
 
 int main()
+
+int32_t main()
 {
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int32_t x,y;
 
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
