@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
 
-#include std::cin
-#include std::cout
-#include std::endl
+using std::endl;
+using std::cin;
+using std::cout;
 
 int main()
 {
