@@ -25,5 +25,9 @@ int main()
         std::cout << "Division: " << x/y << std::endl;
     }
 
+    cout << "Remainder: " << x % y << endl;
+    cout << "Square Root: " << sqrt(x) << endl;
+    cout << "Square: " << pow(x, y) << endl;
+
     return 0;
 }
