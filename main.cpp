@@ -16,7 +16,16 @@ int main()
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
+<<<<<<< Updated upstream
     cout << "Division: " << x / y << endl;
+=======
+    
+    if (y == 0){
+	cout << "Dviding by zero is not a number.\n";
+    } else {
+	cout << "Division: " << x / y << endl;
+    }
+>>>>>>> Stashed changes
     cout << "Remainder: " << x % y << endl;
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
