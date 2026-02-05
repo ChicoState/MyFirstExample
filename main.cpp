@@ -7,10 +7,11 @@ using std::cout;
 
 int main()
 {
-    cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
-    cout << "Hi, please enter two whole numbers: ";
+    std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
+    std::cout << "Hi, please enter two whole numbers: ";
+    std::cout << "Limited to whole numbers between -2,147,483,648 and 2,147,483,647" << std::endl;
 
-    int x,y;
+    int32_t x,y;
 
     cin >> x >> y;
     cout << "Addition: " << x + y << endl;
