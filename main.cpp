@@ -8,7 +8,7 @@ using std::cout;
 int main()
 {
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
-    cout << "Hi, please enter two whole numbers: ";
+    cout << "Hi, please enter two whole numbers please: ";
 
     int x,y;
 
