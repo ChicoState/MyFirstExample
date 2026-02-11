@@ -16,6 +16,7 @@ int main()
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
+    // This prevents a divide by zero error
     if (y == 0) {
       cout << "Divide by zero is not a number\n";
     } else {
