@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build projects
-        run: g++ -std+c++17 main.cpp
+        run: g++ -std=c++17 main.cpp
