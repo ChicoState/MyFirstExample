@@ -1,3 +1,6 @@
+// Author: Alexander Liu
+// Date: 02/02/2026
+// Description: My first example to demonstrate pull requests
 #include <iostream>
 #include <cmath>
 
