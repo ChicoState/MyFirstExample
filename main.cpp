@@ -19,7 +19,7 @@ int main()
     cout << "Division: ";
     if(y == 0)
     {
-        cout << Dividing by zero is not a number. << endl;
+        cout << "Dividing by zero is not a number." << endl;
     }
     else
     {
