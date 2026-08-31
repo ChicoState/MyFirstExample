@@ -8,11 +8,14 @@ using std::cout;
 int main()
 {
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
-    cout << "Hi, please enter two whole numbers: ";
+    cout << "Hi, please enter two whole numbers (Limited to whole numbers between -2,147,483,648 and 2,147,483,647): ";
 
-    int x,y;
+    int32_t x,y;
 
-    cin >> x >> y;
+    cin >> x;
+    cin.clear(); // clear input buffer in case user inputs value outside of expected range
+    cin >> y;
+    
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
