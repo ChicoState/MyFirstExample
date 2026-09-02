@@ -10,13 +10,13 @@ int main()
 {
     cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
     cout << "Hi, please enter two whole numbers\n";
-    cout << "(Limited to whole numbers between -2,147,483,648 and 2,147,483,647):";
+    cout << "(Limited to whole numbers between -2,147,483,648 and 2,147,483,647): ";
 
     int32_t x,y;
 
     if (!(cin >> x >> y)) {
         std::cout << "Error: The number is not within the limit.\n";
-	return 1;
+        return 1;
     }
 
     cout << "Addition: " << x + y << endl;
