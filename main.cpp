@@ -23,7 +23,11 @@ int main()
         cout << "Division: " << x / y << endl;
         cout << "Remainder: " << x % y << endl;
     }
-    cout << "Square Root: " << sqrt(x) << endl;
+    if (x<0) {
+        cout << "Square root of a negative number is not a number" << endl;
+    } else {
+        cout << "Square Root: " << sqrt(x) << endl;
+    }
     cout << "Square: " << pow(x, y) << endl;
 
     return 0;
