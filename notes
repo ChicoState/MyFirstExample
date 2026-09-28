@@ -38,3 +38,57 @@ docker run -it cpp-container sh
 ```
 docker run -v "$(pwd)":/usr/src -it cpp-container
 ```
+
+
+### Repository Setup & Configuration
+git init                    # Initialize a new Git repository
+git clone <url>            # Clone a repository from URL
+
+# Basic Actions
+git status                 # Check repository status
+git add <file>            # Add file(s) to staging area
+git add .                  # Add all changes to staging area
+git commit -m "message"   # Commit staged changes with a message
+git push                  # Push commits to remote repository
+git pull                     # Fetch and merge changes from remote
+
+# Branching
+git branch                # List branches
+git branch <name>         # Create new branch
+git checkout <branch>     # Switch to branch
+git checkout -b <name>    # Create and switch to new branch
+git merge <branch>        # Merge branch into current branch
+git merge --abort             # if conflict and dont wanna deal rn 
+git rebase <branch>       # illusion move. put current branch under named branch 
+git branch -d <branch>    # Delete branch
+
+# History & Differences
+- Moving upwards one commit at a time with ^
+	- git checkout main^ = parent of main
+- Moving upwards a number of times with ~<num>
+
+git branch -f main HEAD~3
+moves (by force) the main branch to three parents behind HEAD.
+
+git log                   # View commit history
+git diff                  # Show unstaged changes
+git diff --staged        # Show staged changes
+git show <commit>        # Show specific commit details
+
+# Undo Changes
+git restore <file>       # Discard changes in working directory
+git reset <file>         # Unstage changes
+git reset --hard HEAD    # Discard all local changes
+git revert <commit>      # Create new commit that undoes changes
+git reset HEAD~1         # reverse back 1 
+git revert head^            # reverse changes and share. makes a c' basically 
+- `git restore --staged <file>`: **unstage** a file (move it back out of the staging area, keeping your edits)
+- `git restore <file>`: **discard** your edits to a file entirely (careful, this throws the changes away!)
+
+# Remote Repository
+git remote -v                                  # List remote repositories
+git remote add <name> <url>    # Add remote repository
+git fetch                                          # Download changes from remote
+git push origin <branch>            # Push branch to remote
+
+git tag <branch> v
