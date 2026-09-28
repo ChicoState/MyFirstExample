@@ -1,0 +1,40 @@
+Upon returning (according to gpt)
+```
+git switch / checkout main
+git fetch
+git pull origin main
+git branch -d myBranch #kill old branch if needed
+git checkout -b newBranch #make ur new branch
+
+
+
+# make new changes
+git add file
+git commit -m "Describe what changed"
+git push -u origin HEAD #push my current branch to the remote using the same branch name
+
+
+
+#If your team uses a fork, the command may instead be:
+git pull upstream main
+
+```
+
+docker
+# Docker
+Build the image from `Dockerfile` with the command:
+```
+docker build -t cpp-container .
+```
+Once built, run the image:
+```
+docker run -it cpp-container
+```
+...or run it interactively in a shell:
+```
+docker run -it cpp-container sh
+```
+...or run it with a volume mounted to the current source code:
+```
+docker run -v "$(pwd)":/usr/src -it cpp-container
+```
